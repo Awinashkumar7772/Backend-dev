@@ -1,0 +1,76 @@
+//        JavaScript Functions
+
+Why we need functions?\
+Whenever we don't want to run the code immediately and we want to re-use that
+block of code of again and again then we need functions.
+
+//       How to create a functions
+
+
+1.Functions statement
+
+function  name () {
+   
+  console.log("output")
+
+}
+
+               ****how to call function?****
+
+ name();
+
+               ****how to pass parameter to a functions?****
+
+function name(variable name or parameter name or Parameter){
+
+console.log(operation on the parameter)
+}
+
+name('value' or Argument);  //we have to pass value while calling the function
+
+#Variable whose values is not defined is called as undefined.
+
+
+2.Functions Expressions
+  const abcd = function(){
+    
+    console.log('function expression')
+
+}
+abcd();
+
+3.Anonymous Functions
+ 
+functions()
+{ 
+  console.log('Anonymous functions')
+}
+
+4.Fat Arrow Function
+  ()=> {
+
+       console.log('Fat arrow function')
+    }
+
+5.Fat Arrow with one parameter
+
+let abcd = (a)=>{
+ 
+console.log('fat arrow with one paramter')
+  
+}
+
+abcd(12);
+
+6.Fat arrow with one implicit return
+
+let abcd = ()=>12;
+let ans = abcd();
+
+
+
+
+
+
+
+
